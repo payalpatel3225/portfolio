@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio website</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header>
+        <div>
+            <p class="logo"><span class="name">P</span>ayal</p>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul>
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#certificate" class="nav__link">Certificate</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <button>
+                <a href="project">Project</a>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">PAYAL PATIDAR</span><br> Web
+                    Designer</h1>
+                <p class="home__text">I’m a web designer who loves creating beautiful and easy-to-use websites. I focus
+                    on making designs that look great and work well for everyone. I enjoy working with colors, fonts,
+                    and layouts to bring ideas to life and always look for new ways to improve my designs.</p>
+
+                <button>
+                    <a href="contact" class="button">Contact</a>
+                </button>
+
+                <button>
+                    <a href="hire me" class="button">Hire me</a>
+                </button>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/payal-patidar1" class="home__social-icon"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/patidar_p7?utm_source=qr&igsh=amtmd2V3bXk3emI5"
+                        class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/payalpatel3225" class="home__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                </div>
+            </div>
+
+            <div class="home__img">
+                <img src="pro.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container">
+                <div class="about__img">
+                    <img src="profile.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Payal</h2>
+                    <p class="about__text">I’m a full stack developer who builds both the front-end and back-end of
+                        websites. I enjoy creating websites that look good and work well. Whether it's designing the
+                        user interface or handling the server-side, I like making sure everything works smoothly
+                        together.</p>
+
+                    <button>
+                        <a href="experiences" class="button">Experiences</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">I have strong skills in HTML (95%) and CSS (85%), which help me create
+                        well-structured and attractive web pages. I also have a good understanding of JavaScript (65%),
+                        allowing me to add interactive features. I'm always looking to improve and learn more about
+                        front-end development.</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <p>HTML5</p>
+                        </div>
+
+                        <div class="skills__bar skills__html">
+
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+
+                        <div class="skills__bar skills__css">
+
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+
+                        <div class="skills__bar skills__js">
+
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__img">
+                    <img src="work.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== Certificate =====-->
+        <section id="certificate">
+            <h2 class="section-title">certificate</h2>
+
+            <div class="certificate__container">
+                <a href="" class="certificate__img">
+                    <img src="Hackathon.jpeg" alt="">
+                </a>
+                <a href="" class="certificate__img">
+                    <img src="Machine Learning.jpeg" alt="">
+                </a>
+                <a href="" class="certificate__img">
+                    <img src="Web Development.jpeg" alt="">
+                </a>
+                <a href="" class="certificate__img">
+                    <img src="Web Development.jpg" alt="">
+                </a>
+                <a href="" class="certificate__img">
+                    <img src="C++.jpg" alt="">
+                </a>
+                <a href="" class="certificate__img">
+                    <img src="Front-End Development.jpg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <input type="tel" placeholder="Mobile Number" class="contact__input">
+                    <textarea placeholder="Your Message" class="contact__input"></textarea>
+                    <div>
+                        <button type="submit" class="contact__button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footerbox container">
+        <div class="logo">
+            <p class="footer__title">Payal</p>
+            <ul>
+                <li><a class="ddd" href="privacy-policy">Privacy Policy</a></li>
+            </ul>
+            <p class="footer__copy">&#169; Copyright 2024. All rigths reserved</p>
+        </div>
+
+        <div class="address">
+            <ul>
+                <li><a class="ddd" href="address">ADDRESS</a></li><br>
+            </ul>
+            <p>Laxmi nagar Rojana, Ringnod road, Jaora</p><br>
+            <ul>
+                <li><a class="ddd" href="email">EMAIL</a></li><br>
+            </ul>
+            <p>payalpatel3225@gmail.com</p>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a class="ddd" href="MENU">MENU</a></li><br>
+                <li><a class="aaa" href="#home">Home</a></li>
+                <li><a class="aaa" href="#about">About</a></li>
+                <li><a class="aaa" href="#skills">Skills</a></li>
+                <li><a class="aaa" href="#certificate">Certificate</a></li>
+                <li><a class="aaa" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/payal-patidar1" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/patidar_p7?utm_source=qr&igsh=amtmd2V3bXk3emI5" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/payalpatel3225" class="footer__icon"><i class='bx bxl-github'></i></a>
+        </div>
+    </footer>
+</body>
+</html>
