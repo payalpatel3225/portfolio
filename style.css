@@ -21,6 +21,9 @@ header {
   background-color: #fff;
   box-shadow: 0 8px 6px rgba(146, 161, 176, 0.15);
 }
+ul li {
+  list-style: none;
+}
 
 header ul li {
   display: inline;
@@ -357,16 +360,20 @@ section {
   align-items: center;
 } */
 
-.footerbox {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
+footer {
   background-color: rgb(32, 31, 31);
   color: #fff;
   font-weight: 600;
   padding: 2rem 1rem;
-  /* width: 100%; */
+}
+.footerbox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.hr{
+  border: 1px solid white;
 }
 
 .footerbox ul li {
@@ -420,6 +427,10 @@ section {
 
 .footerbox ul li {
   list-style: none;
+}
+.Copyright{
+  text-align: center;
+  margin-top: 1rem;
 }
 
 
