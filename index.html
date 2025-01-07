@@ -8,6 +8,9 @@
     <!-- =====BOX ICONS===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Portfolio website</title>
 </head>
@@ -38,9 +41,10 @@
 
         <div>
             <button>
-                <a href="project">Project</a>
+                <a href="project.html">Project</a>
             </button>
         </div>
+
     </header>
 
     <main>
@@ -54,11 +58,12 @@
                     and layouts to bring ideas to life and always look for new ways to improve my designs.</p>
 
                 <button>
-                    <a href="contact" class="button">Contact</a>
+                    <a href="contact.html" class="button">Contact</a>
                 </button>
 
                 <button>
-                    <a href="https://drive.google.com/file/d/1dbe5fwX7LgwOlQ8ruX7uaUgFubfY7UPs/view?usp=drivesdk" class="button">Hire me</a>
+                    <a href="https://drive.google.com/file/d/1dbe5fwX7LgwOlQ8ruX7uaUgFubfY7UPs/view?usp=drivesdk"
+                        class="button">Hire me</a>
                 </button>
 
                 <div class="home__social">
@@ -86,14 +91,13 @@
                 </div>
 
                 <div>
-                    <h2 class="about__subtitle">I'am Payal</h2>
-                    <p class="about__text">I’m a full stack developer who builds both the front-end and back-end of
-                        websites. I enjoy creating websites that look good and work well. Whether it's designing the
-                        user interface or handling the server-side, I like making sure everything works smoothly
-                        together.</p>
+                    <h2 class="about__subtitle">INFORMATION ABOUT ME</h2>
+                    <p class="about__text">"I am a final-year computer science student with a passion for web
+                        development. I have experience in HTML, CSS, JavaScript, and Java. I enjoy building responsive
+                        and user-friendly websites and look forward to pursuing a career in full-stack development."</p>
 
                     <button>
-                        <a href="experiences" class="button">Experiences</a>
+                        <a href="about.html" class="button">Experience</a>
                     </button>
                 </div>
             </div>
@@ -114,7 +118,7 @@
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class='bx bxl-html5 skills__icon'></i>
-                            <p>HTML5</p>
+                            <span class="skills__name">HTML5</span>
                         </div>
 
                         <div class="skills__bar skills__html">
@@ -155,11 +159,38 @@
                             <span class="skills__percentage">65%</span>
                         </div>
                     </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">Bootstrap</span>
+                        </div>
+
+                        <div class="skills__bar skills__bts">
+
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">40%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-brands fa-java skills__icon"></i>
+                            <span class="skills__name">JAVA</span>
+                        </div>
+
+                        <div class="skills__bar skills__java">
+
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="skills__img">
-                    <img src="work.jpg" alt="">
-                </div>
             </div>
         </section>
 
@@ -178,7 +209,7 @@
                     <img src="Web Development.jpeg" alt="">
                 </a>
                 <a href="" class="certificate__img">
-                    <img src="Front End Intrn.jpeg" alt=""> 
+                    <img src="Front End Intrn.jpeg" alt="">
                 </a>
                 <a href="" class="certificate__img">
                     <img src="C++.jpg" alt="">
@@ -186,6 +217,65 @@
                 <a href="" class="certificate__img">
                     <img src="Front-End Development.jpg" alt="">
                 </a>
+            </div>
+        </section>
+
+        <!-- PROJECT SECTION -->
+        <section id="projects">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects__container">
+
+                <!-- Project 1: Quiz Website -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Alarm Clock.png" alt="Alarm-Clock Website">
+                    </div>
+                    <div class="project-details">
+                        <h2>Alarm-Clock Website</h2>
+                        <p>An alarm clock website to manage time and wake up on schedule.</p>
+                        <div class="project-btn">
+                            <a href="https://payalpatel3225.github.io/Alarm-Clock/" target="_blank" class="btn">Live
+                                Demo</a>
+                            <a href="https://github.com/payalpatel3225/Alarm-Clock?tab=readme-ov-file#alarm-clock"
+                                target="_blank" class="btn">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Parallax Website -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Drop and Catch.png" alt="Drop and Catch">
+                    </div>
+                    <div class="project-details">
+                        <h2>Drop and Catch</h2>
+                        <p>Drop and Catch and Catch falling objects with a basket.</p>
+                        <div class="project-btn">
+                            <a href="https://payalpatel3225.github.io/Drop-and-Catch/" target="_blank" class="btn">Live
+                                Demo</a>
+                            <a href="https://github.com/payalpatel3225/Drop-and-Catch/settings/pages" target="_blank"
+                                class="btn">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: QR Code Generator -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="quiz-project.jpg" alt="Quiz Website">
+                    </div>
+                    <div class="project-details">
+                        <h2>Quiz Website</h2>
+                        <p>A dynamic quiz platform with interactive questions,
+                        </p>
+                        <div class="project-btn">
+                            <a href="quiz-live-demo.html" target="_blank" class="btn">Live Demo</a>
+                            <a href="quiz-live-demo.html" target="_blank" class="btn">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -224,12 +314,14 @@
 
             <div class="menu">
                 <ul>
-                    <li><a class="ddd" href="MENU">MENU</a></li><br>
-                    <li><a class="aaa" href="#home">Home</a></li>
-                    <li><a class="aaa" href="#about">About</a></li>
-                    <li><a class="aaa" href="#skills">Skills</a></li>
-                    <li><a class="aaa" href="#certificate">Certificate</a></li>
-                    <li><a class="aaa" href="#contact">Contact</a></li>
+                    <li>
+                        <p class="ddd" href="MENU">MENU</p>
+                    </li><br>
+                    <li><a class="aaa" href="index.html">Home</a></li>
+                    <li><a class="aaa" href="about.html">About</a></li>
+                    <li><a class="aaa" href="skills.html">Skills</a></li>
+                    <li><a class="aaa" href="certificate.html">Certificate</a></li>
+                    <li><a class="aaa" href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
@@ -252,5 +344,8 @@
             <p class="footer__copy">&#169; Copyright 2024. All rigths reserved</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
