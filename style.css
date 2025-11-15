@@ -280,15 +280,15 @@ section {
 }
 
 .skills__js {
-  width: 59%;
+  width: 60%;
 }
 
 .skills__bts {
   width: 75%;
 }
 
-.skills__java {
-  width: 50%;
+.skills__figma {
+  width: 90%;
 }
 
 /* ------- CERTIFICATE ------- */
@@ -705,3 +705,4 @@ footer {
   color: white;
   border-radius: 2rem;
 }
+
